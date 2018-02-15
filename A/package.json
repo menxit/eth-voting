@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "./node_modules/nodemon/bin/nodemon.js",
+    "start:docker": "npm rebuild && ./node_modules/nodemon/bin/nodemon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "codice-fiscale-italiano": "^1.0.1",
+    "express": "^4.16.2",
+    "menxit-easy-rsa": "^1.0.0",
+    "redi": "^0.1.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
